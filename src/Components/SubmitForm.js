@@ -8,7 +8,7 @@ const SubmitForm = () => {
 
     const onSubmit = (data) => {
         const newData = { ...data};
-        fetch("http://localhost:5000/informations", {
+        fetch("https://mern-app-server-site.onrender.com/informations", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
